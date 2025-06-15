@@ -1,56 +1,107 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YTMasterTool - Tải nội dung sáng tạo</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YTMaster Tool - Tải ảnh/video từ Pexels và Pixabay</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 960px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+        }
+        h1, h2, h3 {
+            color: #005bbb;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        code {
+            background: #eee;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        .note {
+            background: #ffffcc;
+            padding: 10px;
+            border-left: 5px solid #ffcc00;
+            margin: 20px 0;
+        }
+        a {
+            color: #0077cc;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>YTMasterTool – Tải nội dung sáng tạo trong vài giây</h1>
-    <p>Một công cụ mạnh mẽ giúp bạn tải ảnh và video chất lượng cao từ Pexels & Pixabay chỉ bằng vài cú nhấp chuột – nhanh chóng, chính xác và hoàn toàn bảo mật.</p>
-    <a class="cta-button" href="#download">Tải xuống ngay</a>
-  </header>
+    <div class="container">
+        <h1>📥 YTMaster Tool</h1>
+        <p><strong>YTMaster Tool</strong> là ứng dụng tải ảnh hoặc video chất lượng cao từ hai kho tài nguyên miễn phí là <strong>Pexels</strong> và <strong>Pixabay</strong>. Công cụ cho phép lọc theo từ khóa, tỷ lệ khung hình và số lượng mong muốn. Hỗ trợ API Key riêng và kiểm tra bản quyền dựa trên mã thiết bị.</p>
 
-  <section class="features">
-    <h2>🔥 Lý do khiến YTMasterTool nổi bật?</h2>
-    <ul>
-      <li><strong>Siêu tốc:</strong> Tải 20+ ảnh/video chỉ trong vài giây</li>
-      <li><strong>Trải nghiệm mượt mà:</strong> Giao diện thân thiện – dễ dùng</li>
-      <li><strong>Bảo vệ quyền riêng tư:</strong> Không gửi dữ liệu ra ngoài</li>
-      <li><strong>Linh hoạt & tùy biến:</strong> Lưu API Key và dùng lại dễ dàng</li>
-    </ul>
-  </section>
+        <h2>✅ Hướng dẫn sử dụng</h2>
+        <h3>1. 🔐 Kích hoạt bản quyền:</h3>
+        <ul>
+            <li>Mở ứng dụng, mã thiết bị sẽ hiển thị.</li>
+            <li>Nhấn <code>SAO CHÉP</code> để sao chép và gửi mã máy cho admin.</li>
+            <li>Nhập License Key và nhấn <code>KÍCH HOẠT KEY</code>.</li>
+        </ul>
 
-  <section class="users">
-    <h2>📸 Ai nên dùng YTMasterTool?</h2>
-    <table>
-      <tr><th>Đối tượng</th><th>Lợi ích</th></tr>
-      <tr><td>🎥 Nhà sáng tạo nội dung</td><td>Tải stock video cho YouTube, TikTok, Reels</td></tr>
-      <tr><td>🧑‍🎓 Sinh viên – giáo viên</td><td>Chuẩn bị slide, đồ án, tài liệu đẹp mắt</td></tr>
-      <tr><td>🧑‍💼 Marketer – Designer</td><td>Tìm nhanh hình ảnh minh hoạ</td></tr>
-      <tr><td>🧑‍💻 Developer</td><td>Tự động hoá việc lấy media</td></tr>
-    </table>
-  </section>
+        <h3>2. 🔧 Thiết lập thông tin tìm kiếm:</h3>
+        <ul>
+            <li>Nhập từ khoá cần tải như <code>nature</code>, <code>city</code>...</li>
+            <li>Chọn số lượng, loại nội dung, tỷ lệ khung hình, nguồn tải.</li>
+        </ul>
 
-  <section class="download" id="download">
-    <h2>📥 Tải xuống</h2>
-    <p><a href="YTMasterTool_setup.exe">⬇️ Bản cài đặt cho Windows</a></p>
-    <p>⚠️ Bạn cần <strong>License Key</strong> để sử dụng đầy đủ tính năng. <a href="#">Hướng dẫn cấp key »</a></p>
-  </section>
+        <h3>3. 📂 Chọn thư mục lưu:</h3>
+        <ul>
+            <li>Nhấn nút <code>Chọn thư mục lưu</code>.</li>
+        </ul>
 
-  <section class="faq">
-    <h2>❓ Câu hỏi thường gặp</h2>
-    <ul>
-      <li><strong>Tool có miễn phí không?</strong> – Có bản giới hạn. Bản đầy đủ cần cấp key (miễn phí cho cộng đồng nội bộ).</li>
-      <li><strong>Tool có cần Internet?</strong> – Có, nhưng bản quyền hoạt động offline.</li>
-      <li><strong>Hỗ trợ ở đâu?</strong> – Tham gia <a href="https://zalo.me/g/wuduzt907">nhóm Zalo hỗ trợ</a> hoặc gửi issue trên GitHub.</li>
-    </ul>
-  </section>
+        <h3>4. 🔑 Nhập API Key:</h3>
+        <ul>
+            <li>Nhập API Key từ Pexels và Pixabay.</li>
+            <li>Nhấn <code>LƯU API KEY</code>.</li>
+        </ul>
 
-  <footer>
-    <p>© 2025 – YTMasterTool bởi Anh Tín | Một sản phẩm vì cộng đồng sáng tạo Việt</p>
-  </footer>
+        <h3>5. ⬇️ Tải nội dung:</h3>
+        <ul>
+            <li>Nhấn <code>TẢI VỀ</code> để tải.</li>
+            <li>Tiến trình sẽ hiển thị ở ô log phía dưới.</li>
+        </ul>
+
+        <div class="note">
+            <h3>📌 Lưu ý quan trọng</h3>
+            <ul>
+                <li>Phải nhập API Key mới sử dụng được.</li>
+                <li>Không kích hoạt License Key sẽ không tải được nội dung.</li>
+                <li>Sẽ báo thiếu nếu không đủ dữ liệu phù hợp yêu cầu.</li>
+            </ul>
+        </div>
+
+        <h2>🔑 Hướng dẫn lấy API Key</h2>
+        <h3>1. Pexels:</h3>
+        <ul>
+            <li>Truy cập: <a href="https://www.pexels.com/api/new/" target="_blank">https://www.pexels.com/api/new/</a></li>
+            <li>Điền tên app, mô tả và nhấn Generate API Key.</li>
+        </ul>
+
+        <h3>2. Pixabay:</h3>
+        <ul>
+            <li>Truy cập: <a href="https://pixabay.com/api/docs/" target="_blank">https://pixabay.com/api/docs/</a></li>
+            <li>Vào My API Key, tạo mới và sao chép.</li>
+        </ul>
+
+        <h2>💬 Kênh hỗ trợ</h2>
+        <p>Tham gia nhóm Zalo hỗ trợ: <a href="https://zalo.me/g/wuduzt907">https://zalo.me/g/wuduzt907</a></p>
+    </div>
 </body>
 </html>
